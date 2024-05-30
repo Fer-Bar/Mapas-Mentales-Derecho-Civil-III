@@ -4,7 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Markmap</title>
+<title>Mapas Mentales - Derecho Civil III</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous">
+<link rel="stylesheet" href="./base.css">
 <style>
 * {
   margin: 0;
@@ -19,7 +26,16 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/style.css">
 </head>
 <body>
-<svg id="mindmap"></svg>
+  <header>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand navbar-logo" href="./index.html">F3RBAR</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <svg id="mindmap"></svg>
+  </main>
 <script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.17.0/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:O,mm:h}=window,M=new O.Toolbar;M.attach(h);const oe=M.render();oe.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(oe)})})()</script><script>((i,L,f,r)=>{const w=i();window.mm=w.Markmap.create("svg#mindmap",(L||w.deriveOptions)(r),f)})(()=>window.markmap,null,{"content":"El Consentimiento en los Contratos","children":[{"content":"Momento de formación del contrato","children":[{"content":"Entre presentes","children":[],"payload":{"lines":"4,5"}},{"content":"Entre no presentes","children":[],"payload":{"lines":"5,7"}}],"payload":{"lines":"3,4"}},{"content":"Contrato entre presentes","children":[{"content":"Contratantes en el mismo lugar o en comunicación directa (teléfono, internet, etc.)","children":[],"payload":{"lines":"8,9"}},{"content":"Se perfecciona cuando el oferente conoce la aceptación","children":[],"payload":{"lines":"9,10"}},{"content":"Plazo de la oferta: no obligado a mantener si no se acepta de inmediato","children":[],"payload":{"lines":"10,12"}}],"payload":{"lines":"7,8"}},{"content":"Contrato entre no presentes","children":[{"content":"Teorías de formación del consentimiento","children":[{"content":"<strong>Teoría de la emisión</strong>","children":[],"payload":{"lines":"17,18"}},{"content":"Consentimiento cuando el ofertatario emite su aceptación","children":[],"payload":{"lines":"18,19"}},{"content":"<strong>Teoría de la expedición</strong>","children":[],"payload":{"lines":"19,20"}},{"content":"Consentimiento cuando el ofertatario expide su aceptación","children":[],"payload":{"lines":"20,21"}},{"content":"<strong>Teoría de la recepción</strong>","children":[],"payload":{"lines":"21,22"}},{"content":"Consentimiento cuando el oferente recibe la aceptación","children":[],"payload":{"lines":"22,23"}},{"content":"<strong>Teoría de la información</strong>","children":[],"payload":{"lines":"23,24"}},{"content":"Consentimiento cuando el oferente se informa de la aceptación","children":[],"payload":{"lines":"24,26"}}],"payload":{"lines":"16,17"}},{"content":"Nuestro Código Civil adopta la teoría de la información","children":[],"payload":{"lines":"26,27"}}],"payload":{"lines":"12,13"}},{"content":"Lugar de formación del consentimiento","children":[{"content":"Contrato entre presentes","children":[{"content":"Lugar donde ambas partes se encuentran simultáneamente","children":[],"payload":{"lines":"32,34"}}],"payload":{"lines":"31,32"}},{"content":"Contrato entre no presentes","children":[{"content":"Lugar donde se hizo la oferta","children":[],"payload":{"lines":"35,37"}}],"payload":{"lines":"34,35"}}],"payload":{"lines":"28,29"}},{"content":"El contrato preliminar","children":[{"content":"Modalidades del contrato preliminar","children":[{"content":"<strong>Contrato preliminar unilateral</strong>","children":[],"payload":{"lines":"42,43"}},{"content":"Una sola parte se obliga a celebrar el contrato definitivo","children":[],"payload":{"lines":"43,44"}},{"content":"<strong>Contrato preliminar bilateral</strong>","children":[],"payload":{"lines":"44,45"}},{"content":"Ambas partes se obligan recíprocamente a celebrar el contrato definitivo","children":[],"payload":{"lines":"45,47"}}],"payload":{"lines":"41,42"}},{"content":"Efectos del contrato preliminar","children":[{"content":"Obligaciones y derechos de crédito antes del término","children":[],"payload":{"lines":"48,49"}},{"content":"Resarcimiento de daños por incumplimiento","children":[],"payload":{"lines":"49,51"}}],"payload":{"lines":"47,48"}}],"payload":{"lines":"37,38"}},{"content":"Contrato de opción","children":[{"content":"Una parte concede a otra la facultad de aceptar una prestación en un plazo","children":[],"payload":{"lines":"52,53"}},{"content":"Plazo no superior a dos años","children":[],"payload":{"lines":"53,55"}}],"payload":{"lines":"51,52"}},{"content":"El autocontrato o contrato consigo mismo","children":[{"content":"Contrato entre representante y representado","children":[{"content":"Anulable salvo que la ley lo permita, con consentimiento del representado, o sin conflicto de intereses","children":[],"payload":{"lines":"59,61"}}],"payload":{"lines":"58,59"}},{"content":"Autocontrato entre representados","children":[{"content":"Representante otorga contrato en nombre de dos personas representadas","children":[],"payload":{"lines":"62,63"}}],"payload":{"lines":"61,62"}}],"payload":{"lines":"55,56"}}],"payload":{"lines":"1,2"}},{"colorFreezeLevel":2})</script>
 </body>
 </html>
