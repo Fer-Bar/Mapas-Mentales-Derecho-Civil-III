@@ -57,3 +57,7 @@ header {
   border-color: #3091c2;
   padding: 10px;
 }
+
+.list-group-item.list-group-item-action:hover{
+  background-color: #c267df;
+}
